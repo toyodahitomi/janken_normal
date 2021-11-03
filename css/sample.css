@@ -78,3 +78,16 @@ li:hover{
     align-items: center;
     
 }
+
+.result_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result_box img{
+     width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
