@@ -2,16 +2,21 @@ body{
     margin:0;
     padding:0;
     text-align:left;
-    font-size: 32px;
+    font-size: 18px;
 }
 header{
     background-color: #fff;
     border-bottom: 1px solid #ccc;
-    text-align: center;
+    text-align: left;
 }
+
+
+
 main{
     border-bottom:1px solid #ccc;
 }
+    
+
 footer{
     background-color: #fff;
     border-bottom:1px solid #ccc;
@@ -30,18 +35,22 @@ ul{
     table-layout: fixed;
     width:100%;
 }
+
+
 li{
     text-align: center;
     list-style-type:none;
     border: 1px solid #666;
     background-color: #FFF;
     display:table-cell;  /* 定義 */
-    cursor: pointer;
+    cursor: pointer;   
 }
 li:hover{
     background: #0066CC;
     color:#fff;
 }
+
+
 
 .img_box{
     width: 100%;
@@ -52,17 +61,6 @@ li:hover{
     animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1);
  }
 
- @keyframes img-box {
-  0% {
-    clip-path: circle(0 at 50% 50%);
-    -webkit-clip-path: circle(0 at 50% 50%);
-   }
-
-   100% {
-    clip-path: circle(100% at 50% 50%);
-    -webkit-clip-path: circle(100% at 50% 50%);
-   }  
-  }
 
   .pc_hand_box{
       display: flex;
